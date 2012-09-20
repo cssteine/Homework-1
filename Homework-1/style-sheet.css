@@ -1,0 +1,80 @@
+body.index {
+		color: black;
+		font-family: 'Bookman Old Style', serif;
+		font-size: 10 pt;
+		background-image: url(photos/ChicagoBulls.jpg);
+		margin-left: 10%;
+		margin-right: 10%;
+		}
+		
+body.resume {
+		color: black;
+		font-family: 'Bookman Old Style', serif;
+		font-size: 10 pt;
+		background-image: url(photos/woodbackground.jpg);
+		margin-left: 10%;
+		margin-right: 10%;
+		}
+
+		
+h1.titleindex {
+		font-size: 36pt;
+		font-variant: small-caps;
+		font-weight: bold;
+		text-align:center;
+		margin-top: 15px;
+		margin-bottom: 0px; 
+		color: white;
+	}
+	
+	h1.titleresume{
+		font-size: 36pt;
+		font-variant: small-caps;
+		font-weight: bold;
+		text-align:center;
+		margin-top: 15px;
+		margin-bottom: 0px; 
+		color: black;
+	}
+	
+h2.subtitle {
+		font size: 18pt;
+		font-variant: small-caps;
+		font-weight: bold;
+		text-align:center;
+		text-decoration: underline;
+		}
+	
+.image { padding-top: 8px;
+		padding-bottom: 5px;
+		border: solid 5px black;
+		text-align: center;
+		}
+
+a { text-decoration:none; font-weight: bold; }
+a:link, a:visited { color: black; }	
+a:link.resume, a:visited.resume{ color: white; }
+a:hover, a:hover.resume { color: grey; text-decoration: underline; padding:1px; }	
+		
+#headerindex { background-color: black; padding:15px 10px;}
+#headerresume { background-color: white; padding:15px 10px;}
+
+	
+#centerdivindex{ width: 940px; height: 1357px; margin:0 auto; background:#FD3F49; border: solid 2px black;  }
+#centerdivresume{ width: 940px; margin:0 auto; background:white; border: solid 2px black;}
+	
+#contentindex { background-color: #FD3F49; float:right; width: 600px; padding-left: 10px; padding-right: 10px; }	
+#contentresume{ padding-left: 10px; padding-right: 10px; }	
+
+#sidebar { background: grey; float:left; width: 300px; padding-bottom: 0px; padding-right: 10px; padding-left: 10px; padding-top: 10px;}
+
+#navindex { background:white; text-align:center; float: right; width: 940px;}
+
+#navindex li  { display: inline; list-style-type: none; padding-right: 75px; font-size: 20pt; font-weight:normal; font-variant:small-caps;}
+
+#navresume{ background:black; text-align:center; float: right; width: 940px;}
+
+#navresume li  { display: inline; list-style-type: none; padding-right: 75px; font-size: 20pt; font-weight:normal; font-variant:small-caps;}
+		
+#contactinfo {border: solid 2px black; padding-left: 10px; margin-top: 50px;}
+			
