@@ -1,7 +1,7 @@
 body.index {
 		color: black;
 		font-family: 'Bookman Old Style', serif;
-		font-size: 10 pt;
+		font-size: 12pt;
 		background-image: url(photos/ChicagoBulls.jpg);
 		margin-left: 10%;
 		margin-right: 10%;
@@ -10,7 +10,7 @@ body.index {
 body.resume {
 		color: black;
 		font-family: 'Bookman Old Style', serif;
-		font-size: 10 pt;
+		font-size: 12pt;
 		background-image: url(photos/woodbackground.jpg);
 		margin-left: 10%;
 		margin-right: 10%;
@@ -38,7 +38,7 @@ h1.titleindex {
 	}
 	
 h2.subtitle {
-		font size: 18pt;
+		font-size: 18pt;
 		font-variant: small-caps;
 		font-weight: bold;
 		text-align:center;
@@ -51,19 +51,33 @@ h2.subtitle {
 		text-align: center;
 		}
 
-a { text-decoration:none; font-weight: bold; }
+h4 {
+		font-size: 16pt;
+		text-decoration: underline;
+		}
+
+
+a{ text-decoration:none; font-weight: bold; }
 a:link, a:visited { color: black; }	
 a:link.resume, a:visited.resume{ color: white; }
 a:hover, a:hover.resume { color: grey; text-decoration: underline; padding:1px; }	
+
+.listlinks { font-weight: normal;}
+.resumedates{ font-style: italic; }
+
+.resumeheadings{ font-weight: bold; font-style: italic; }
 		
 #headerindex { background-color: black; padding:15px 10px;}
 #headerresume { background-color: white; padding:15px 10px;}
 
+#footer { font-style:italic; text-align:center; font-size:small; }
+
+#validation { text-align: center;}
 	
-#centerdivindex{ width: 940px; height: 1357px; margin:0 auto; background:#FD3F49; border: solid 2px black;  }
+#centerdivindex{ width: 940px; height: 1365px; margin:0 auto; background:#FD3F49; border: solid 2px black;  }
 #centerdivresume{ width: 940px; margin:0 auto; background:white; border: solid 2px black;}
 	
-#contentindex { background-color: #FD3F49; float:right; width: 600px; padding-left: 10px; padding-right: 10px; }	
+#contentindex { float:right; width: 600px; padding-left: 10px; padding-right: 10px; }	
 #contentresume{ padding-left: 10px; padding-right: 10px; }	
 
 #sidebar { background: grey; float:left; width: 300px; padding-bottom: 0px; padding-right: 10px; padding-left: 10px; padding-top: 10px;}
